@@ -22,4 +22,10 @@
         android:name="com.example.mygoalchecker.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_detail"
+        android:name="com.example.mygoalchecker.ui.detail.DetailFragment"
+        android:label="@string/menu_detail"
+        tools:layout="@layout/fragment_detail" />
 </navigation>
